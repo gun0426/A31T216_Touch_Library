@@ -46,21 +46,9 @@
 #define CS18_USE	0
 #define CS19_USE	1
 #define CS20_USE	0
-<<<<<<< HEAD
 #define CS21_USE	0	// ISEG8/ICOM8
 #define CS22_USE	0	// ISEG7/ICOM7
 #define CS23_USE	0	// iSEG6/ICOM6,  X /* set '0' to use CS23 as a mash-shield */
-=======
-<<<<<<< HEAD
-#define CS21_USE	0	// ISEG8
-#define CS22_USE	0	// ISEG7
-#define CS23_USE	0	// iSEG6,  X /* set '0' to use CS23 as a mash-shield */
-=======
-#define CS21_USE	0	// X
-#define CS22_USE	0	// X
-#define CS23_USE	0	// X /* set '0' to use CS23 as a mash-shield */
->>>>>>> parent of d6850f5 (TEST : user.h ISEG8 comment)
->>>>>>> parent of 30776b9 (TSET : user.h ICOM8 comment)
 /*************************
 	SHIELD CH
 *************************/

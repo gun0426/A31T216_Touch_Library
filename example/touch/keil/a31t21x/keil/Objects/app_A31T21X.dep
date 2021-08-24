@@ -1,266 +1,266 @@
 Dependencies for Project 'app', Target 'A31T21X': (DO NOT MODIFY !)
-F (..\..\code_app\main.c)(0x6111E8E9)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\code_app\main.h)(0x61023B3F)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\code_app\main.c)(0x6111E8EA)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\..\code_app\main.h)(0x61023B40)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD6)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x6123681F)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E6)
-I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892720)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF6E)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9561)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035943)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\debug.h)(0x61024AD3)
-I (..\..\code_app\user.h)(0x6122FC54)
-I (..\..\code_app\led_driver.h)(0x61023848)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\library\header\user_timer.h)(0x611B7186)
-F (..\..\code_app\a31t21x_system_setting.c)(0x60E7A0D0)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_system_setting.o --omf_browse .\objects\a31t21x_system_setting.crf --depend .\objects\a31t21x_system_setting.d)
-I (..\..\code_app\main.h)(0x61023B3F)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD8)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x61236820)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E8)
+I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892722)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF70)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\debug.h)(0x61024AD4)
+I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\led_driver.h)(0x6102384A)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
+F (..\..\code_app\a31t21x_system_setting.c)(0x60E7A0D2)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_system_setting.o --omf_browse .\objects\a31t21x_system_setting.crf --depend .\objects\a31t21x_system_setting.d)
+I (..\..\code_app\main.h)(0x61023B40)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD6)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x6123681F)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E6)
-I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892720)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF6E)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9561)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035943)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\debug.h)(0x61024AD3)
-I (..\..\code_app\user.h)(0x6122FC54)
-I (..\..\code_app\led_driver.h)(0x61023848)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\library\header\user_timer.h)(0x611B7186)
-F (..\..\code_app\a31t21x_port_init.c)(0x607E993C)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_port_init.o --omf_browse .\objects\a31t21x_port_init.crf --depend .\objects\a31t21x_port_init.d)
-I (..\..\code_app\main.h)(0x61023B3F)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD8)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x61236820)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E8)
+I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892722)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF70)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\debug.h)(0x61024AD4)
+I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\led_driver.h)(0x6102384A)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
+F (..\..\code_app\a31t21x_port_init.c)(0x607E993C)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_port_init.o --omf_browse .\objects\a31t21x_port_init.crf --depend .\objects\a31t21x_port_init.d)
+I (..\..\code_app\main.h)(0x61023B40)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD6)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x6123681F)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E6)
-I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892720)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF6E)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9561)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035943)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\debug.h)(0x61024AD3)
-I (..\..\code_app\user.h)(0x6122FC54)
-I (..\..\code_app\led_driver.h)(0x61023848)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\library\header\user_timer.h)(0x611B7186)
-F (..\..\code_app\debug.c)(0x61236782)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD8)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x61236820)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E8)
+I (..\..\..\..\..\driver\a31t21x\include\a31T21x_timer.h)(0x60892722)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF70)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\debug.h)(0x61024AD4)
+I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\led_driver.h)(0x6102384A)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
+F (..\..\code_app\debug.c)(0x61236784)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475E4F0)
-I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_uart.h)(0x607E9561)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_uart.h)(0x607E9562)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF6E)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_gpio.h)(0x6123681F)
-I (..\..\code_app\debug.h)(0x61024AD3)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\user.h)(0x6122FC54)
-F (..\..\code_app\led_driver.c)(0x61026C53)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\led_driver.o --omf_browse .\objects\led_driver.crf --depend .\objects\led_driver.d)
-I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_usart1n.h)(0x60B5BF70)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_gpio.h)(0x61236820)
+I (..\..\code_app\debug.h)(0x61024AD4)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\user.h)(0x6124C42E)
+F (..\..\code_app\led_driver.c)(0x61026C54)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\led_driver.o --omf_browse .\objects\led_driver.crf --depend .\objects\led_driver.d)
+I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_gpio.h)(0x6123681F)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_gpio.h)(0x61236820)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_scu.h)(0x607D4DD6)
-I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035943)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\led_driver.h)(0x61023848)
-I (..\..\code_app\user.h)(0x6122FC54)
-F (..\..\code_app\user.c)(0x60E41D26)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\user.o --omf_browse .\objects\user.crf --depend .\objects\user.d)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_scu.h)(0x607D4DD8)
+I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\led_driver.h)(0x6102384A)
+I (..\..\code_app\user.h)(0x6124C42E)
+F (..\..\code_app\user.c)(0x60E41D28)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\user.o --omf_browse .\objects\user.crf --depend .\objects\user.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475E4F0)
-I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\code_app\library\header\common.h)(0x610783EE)
-I (..\..\code_app\library\header\touch.h)(0x611C6506)
-I (..\..\code_app\user.h)(0x6122FC54)
-F (..\..\code_lib\touch.c)(0x61246391)()
-F (..\..\code_lib\user_timer.c)(0x61246391)()
-F (..\..\code_app\library\Objects\touch.lib)(0x611DB42E)()
-F (..\..\..\..\..\core\device\a31t21x\source\a31t21x_system.c)(0x60FA549F)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_system.o --omf_browse .\objects\a31t21x_system.crf --depend .\objects\a31t21x_system.d)
+I (..\..\code_app\library\header\common.h)(0x610783F0)
+I (..\..\code_app\library\header\touch.h)(0x611C6508)
+I (..\..\code_app\user.h)(0x6124C42E)
+F (..\..\code_lib\touch.c)(0x61246392)()
+F (..\..\code_lib\user_timer.c)(0x61246392)()
+F (..\..\code_app\library\Objects\touch.lib)(0x611DB430)()
+F (..\..\..\..\..\core\device\a31t21x\source\a31t21x_system.c)(0x60FA54A0)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_system.o --omf_browse .\objects\a31t21x_system.crf --depend .\objects\a31t21x_system.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-F (..\..\..\..\..\core\device\a31t21x\source\a31t21x_startup_arm.s)(0x611CAFAF)(--cpu Cortex-M0+ --li -g --apcs=interwork -I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 513" --pd "ARMCM0P SETA 1"--list .\listings\a31t21x_startup_arm.lst --xref -o .\objects\a31t21x_startup_arm.o --depend .\objects\a31t21x_startup_arm.d)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_adc.c)(0x609B252A)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_crc.c)(0x60CADC95)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_dma.c)(0x60C95723)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_dma.o --omf_browse .\objects\a31t21x_dma.crf --depend .\objects\a31t21x_dma.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+F (..\..\..\..\..\core\device\a31t21x\source\a31t21x_startup_arm.s)(0x611CAFB0)(--cpu Cortex-M0+ --li -g --apcs=interwork -I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 513" --pd "ARMCM0P SETA 1"--list .\listings\a31t21x_startup_arm.lst --xref -o .\objects\a31t21x_startup_arm.o --depend .\objects\a31t21x_startup_arm.d)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_adc.c)(0x609B252C)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_crc.c)(0x60CADC96)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_dma.c)(0x60C95724)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_dma.o --omf_browse .\objects\a31t21x_dma.crf --depend .\objects\a31t21x_dma.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_fmc.c)(0x60FA6C77)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_fmc_self.c)(0x60FA6C77)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_gpio.c)(0x61245B87)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_gpio.o --omf_browse .\objects\a31t21x_gpio.crf --depend .\objects\a31t21x_gpio.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x6123681F)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_fmc.c)(0x60FA6C78)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_fmc_self.c)(0x60FA6C78)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_gpio.c)(0x61245B88)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_gpio.o --omf_browse .\objects\a31t21x_gpio.crf --depend .\objects\a31t21x_gpio.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x61236820)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_i2c.c)(0x60CAB4A4)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_lcd.c)(0x60FA7FFB)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_led.c)(0x61035A0F)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_led.o --omf_browse .\objects\a31t21x_led.crf --depend .\objects\a31t21x_led.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_led.h)(0x61035943)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_i2c.c)(0x60CAB4A6)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_lcd.c)(0x60FA7FFC)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_led.c)(0x61035A10)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_led.o --omf_browse .\objects\a31t21x_led.crf --depend .\objects\a31t21x_led.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_led.h)(0x61035944)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_pwr.c)(0x60C71F0E)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_pwr.o --omf_browse .\objects\a31t21x_pwr.crf --depend .\objects\a31t21x_pwr.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CC)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_pwr.c)(0x60C71F10)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_pwr.o --omf_browse .\objects\a31t21x_pwr.crf --depend .\objects\a31t21x_pwr.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h)(0x6099E6CE)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_scu.c)(0x6115E048)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_scu.o --omf_browse .\objects\a31t21x_scu.crf --depend .\objects\a31t21x_scu.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD6)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_scu.c)(0x6115E04A)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_scu.o --omf_browse .\objects\a31t21x_scu.crf --depend .\objects\a31t21x_scu.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h)(0x607D4DD8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_spi.c)(0x610259C4)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_timer.c)(0x60C7F952)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_timer.o --omf_browse .\objects\a31t21x_timer.crf --depend .\objects\a31t21x_timer.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_timer.h)(0x60892720)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_spi.c)(0x610259C6)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_timer.c)(0x60C7F954)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_timer.o --omf_browse .\objects\a31t21x_timer.crf --depend .\objects\a31t21x_timer.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_timer.h)(0x60892722)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_timer30.c)(0x60C7FC15)()
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_uart.c)(0x6103B802)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_uart.o --omf_browse .\objects\a31t21x_uart.crf --depend .\objects\a31t21x_uart.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_uart.h)(0x607E9561)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_timer30.c)(0x60C7FC16)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_uart.c)(0x6103B804)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_uart.o --omf_browse .\objects\a31t21x_uart.crf --depend .\objects\a31t21x_uart.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_uart.h)(0x607E9562)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_usart1n.c)(0x6103B97F)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_usart1n.o --omf_browse .\objects\a31t21x_usart1n.crf --depend .\objects\a31t21x_usart1n.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_usart1n.h)(0x60B5BF6E)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_usart1n.c)(0x6103B980)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_usart1n.o --omf_browse .\objects\a31t21x_usart1n.crf --depend .\objects\a31t21x_usart1n.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_usart1n.h)(0x60B5BF70)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C54)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_wdt.c)(0x61026E63)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_wdt.o --omf_browse .\objects\a31t21x_wdt.crf --depend .\objects\a31t21x_wdt.d)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E6)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1B)
-I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_dma.h)(0x60C82C56)
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_wdt.c)(0x61026E64)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\a31t21x_wdt.o --omf_browse .\objects\a31t21x_wdt.crf --depend .\objects\a31t21x_wdt.d)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_wdt.h)(0x608F97E8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x.h)(0x61076C1C)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
-I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
-I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
-I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
-I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246391)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B8)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B8)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DE)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x61246392)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
-F (..\..\..\..\..\driver\a31t21x\source\a31t21x_wt.c)(0x61027585)()
+F (..\..\..\..\..\driver\a31t21x\source\a31t21x_wt.c)(0x61027586)()

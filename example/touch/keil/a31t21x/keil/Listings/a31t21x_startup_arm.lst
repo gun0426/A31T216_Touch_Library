@@ -357,11 +357,11 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M0+ --apcs=interwork --depend=.\objec
 ts\a31t21x_startup_arm.d -o.\objects\a31t21x_startup_arm.o -ID:\work\5.MSS_SS\A
-31T216\p.pkg\fw\A31T216_Project\example\touch\keil\a31t21x\keil\RTE -IC:\Keil_v
-5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include -IC:\Keil_v5\ARM\CMSIS
-\Include --predefine="__UVISION_VERSION SETA 513" --predefine="ARMCM0P SETA 1" 
---list=.\listings\a31t21x_startup_arm.lst ..\..\..\..\..\core\device\a31t21x\so
-urce\a31t21x_startup_arm.s
+31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE -IC:\
+Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include -IC:\Keil_v5\ARM
+\CMSIS\Include --predefine="__UVISION_VERSION SETA 513" --predefine="ARMCM0P SE
+TA 1" --list=.\listings\a31t21x_startup_arm.lst ..\..\..\..\..\core\device\a31t
+21x\source\a31t21x_startup_arm.s
 
 
 
