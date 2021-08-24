@@ -1,0 +1,23 @@
+Dependencies for Project 'lib', Target 'A31T21X': (DO NOT MODIFY !)
+F (..\..\code_lib\touch.c)(0x60C31C50)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\core\CMSIS\Include -I..\..\..\..\core\Device\A31T21x\Include -I..\..\..\..\driver\A31T21x\Include -I..\..\code_app -I..\..\code_lib -I..\..\code_app\library\header -I..\..\a31t21x-I "D:\work\5.MSS_SS\A31T216\p.pkg\fw\고도화\Example Code_SWTF_A31T21x_210701\example\touch\a31t21x_lib\keil\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o ..\..\code_app\library\objects\touch.o --omf_browse ..\..\code_app\library\objects\touch.crf --depend ..\..\code_app\library\objects\touch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475E4F0)
+I (..\..\..\..\core\Device\A31T21x\Include\A31T21x.h)(0x60A7445F)
+I (..\..\..\..\core\CMSIS\Include\core_cm0plus.h)(0x606AC7B7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
+I (..\..\..\..\core\CMSIS\Include\cmsis_version.h)(0x606AC7B7)
+I (..\..\..\..\core\CMSIS\Include\cmsis_compiler.h)(0x606AC7B7)
+I (..\..\..\..\core\CMSIS\Include\cmsis_armcc.h)(0x606AC7B7)
+I (..\..\..\..\core\Device\A31T21x\Include\a31t21x_system.h)(0x607D39DC)
+I (..\..\code_app\library\header\common.h)(0x60C1E0F9)
+I (..\..\code_app\library\header\user_timer.h)(0x60C31C48)
+I (..\..\code_app\library\header\touch.h)(0x60C31CAD)
+F (..\..\code_lib\user_timer.c)(0x60C31C50)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\core\CMSIS\Include -I..\..\..\..\core\Device\A31T21x\Include -I..\..\..\..\driver\A31T21x\Include -I..\..\code_app -I..\..\code_lib -I..\..\code_app\library\header -I..\..\a31t21x-I "D:\work\5.MSS_SS\A31T216\p.pkg\fw\고도화\Example Code_SWTF_A31T21x_210701\example\touch\a31t21x_lib\keil\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o ..\..\code_app\library\objects\user_timer.o --omf_browse ..\..\code_app\library\objects\user_timer.crf --depend ..\..\code_app\library\objects\user_timer.d)
+I (..\..\..\..\core\Device\A31T21x\Include\A31T21x.h)(0x60A7445F)
+I (..\..\..\..\core\CMSIS\Include\core_cm0plus.h)(0x606AC7B7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
+I (..\..\..\..\core\CMSIS\Include\cmsis_version.h)(0x606AC7B7)
+I (..\..\..\..\core\CMSIS\Include\cmsis_compiler.h)(0x606AC7B7)
+I (..\..\..\..\core\CMSIS\Include\cmsis_armcc.h)(0x606AC7B7)
+I (..\..\..\..\core\Device\A31T21x\Include\a31t21x_system.h)(0x607D39DC)
+I (..\..\code_app\library\header\common.h)(0x60C1E0F9)
+I (..\..\code_app\library\header\user_timer.h)(0x60C31C48)

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4166204993</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\a31t21x_debug.c</file>
+            <file>$PROJ_DIR$\..\a31t21x_port_init.c</file>
+            <file>$PROJ_DIR$\..\..\main.c</file>
+            <file>$PROJ_DIR$\..\a31t21x_system_setting.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_scu.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\core\device\a31t21x\source\a31t21x_startup_iar.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_serial.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_debug.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\core\device\a31t21x\source\a31t21x_system.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_timer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_retarget.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_scu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_cmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_log.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_retarget.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_hardfault.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_log.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\app.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_hardfault.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_scu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_cmd.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_system_setting.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_system_setting.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_log.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_startup_iar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_retarget.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\app.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_port_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_system.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_port_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_cmd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_system.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_serial.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_serial.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug_hardfault.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_dma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_debug.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\a31t21x_timer.xcl</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\a31t21x_debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\a31t21x_port_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\a31t21x_system_setting.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\core\device\a31t21x\source\a31t21x_startup_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_serial.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\core\device\a31t21x\source\a31t21x_system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_retarget.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_scu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_cmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_log.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\driver\a31t21x\source\a31t21x_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\library\debug\source\debug_hardfault.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

@@ -1,0 +1,15 @@
+D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\Debug\BrowseInfo\core\a31t21x_system.pbi: \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\core\device\a31t21x\source\a31t21x_system.c \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\device\a31t21x\include\a31t21x.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\cmsis\include\core_cm0plus.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\cmsis\include\cmsis_version.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\cmsis\include\cmsis_compiler.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\cmsis\include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\peripheral\gpio_input\a31t21x\iar\..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h

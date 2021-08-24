@@ -1,0 +1,12 @@
+..\..\code_app\library\objects\touch.o: ..\..\code_lib\touch.c
+..\..\code_app\library\objects\touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\Device\A31T21x\Include\A31T21x.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\CMSIS\Include\core_cm0plus.h
+..\..\code_app\library\objects\touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\CMSIS\Include\cmsis_version.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\CMSIS\Include\cmsis_compiler.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\CMSIS\Include\cmsis_armcc.h
+..\..\code_app\library\objects\touch.o: ..\..\..\..\core\Device\A31T21x\Include\a31t21x_system.h
+..\..\code_app\library\objects\touch.o: ..\..\code_app\library\header\common.h
+..\..\code_app\library\objects\touch.o: ..\..\code_app\library\header\user_timer.h
+..\..\code_app\library\objects\touch.o: ..\..\code_app\library\header\touch.h

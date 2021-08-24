@@ -1,0 +1,27 @@
+Dependencies for Project 'lib', Target 'A31T21X': (DO NOT MODIFY !)
+F (..\..\code_lib\touch.c)(0x611C661F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\cmsis\include -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\touch\keil\a31t21x_lib\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o ..\..\code_app\library\objects\touch.o --omf_browse ..\..\code_app\library\objects\touch.crf --depend ..\..\code_app\library\objects\touch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475E4F0)
+I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1B)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x6115DDC1)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x608BA4E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
+I (..\..\code_app\library\header\common.h)(0x610783EE)
+I (..\..\code_app\library\header\user_timer.h)(0x611B7186)
+I (..\..\code_app\library\header\touch.h)(0x611C6506)
+F (..\..\code_lib\user_timer.c)(0x60E411CC)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\cmsis\include -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_Library_VER101\example\touch\keil\a31t21x_lib\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o ..\..\code_app\library\objects\user_timer.o --omf_browse ..\..\code_app\library\objects\user_timer.crf --depend ..\..\code_app\library\objects\user_timer.d)
+I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1B)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475E4F0)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x606AC7B7)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x606AC7B7)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x606AC7B7)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x607D39DC)
+I (..\..\code_app\library\header\common.h)(0x610783EE)
+I (..\..\code_app\library\header\user_timer.h)(0x611B7186)

@@ -1,0 +1,3 @@
+--create ..\..\code_app\library\Objects\touch.lib
+..\..\code_app\library\objects\touch.o
+..\..\code_app\library\objects\user_timer.o

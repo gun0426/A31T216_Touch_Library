@@ -1,0 +1,36 @@
+
+#include "common.h"
+
+#ifndef __LEDDRV_H__
+#define __LEDDRV_H__
+
+#define LED_LIB_VER 	1	/* 201126 */
+
+#define LED_INIT_DATA	0xFFFF
+#define SEG(x)	((u16)1<<x)
+#define COM(x)	((u8)1<<x)
+//---------------
+
+typedef struct {
+	u16	com_sel;
+	u16 seg_sel;
+	struct{
+		u8 seg_current	:2;
+		u8 op_mode	:3;
+		u8 rsrvd	:3;
+	}flag;
+} str_ledx;
+
+
+extern str_ledx led;
+extern void (*fpRenewLED)(void);
+
+void LED_Do_Task(void);
+void LED_Set_Actv_Time(u8 comCnt, u8 slotMs, u8 period);
+void LED_Set_Current(u8 currLev);
+void LedDriver_ISR(void);
+
+
+#endif	// __LEDDRV_H__
+
+

@@ -1,0 +1,501 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  24/Aug/2021  13:27:47
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Exe\app.out
+#    Map file     =
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\List\app.map
+#    Command line =
+#        -f
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\List\app.map.rsp
+#        (D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_dma.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_gpio.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_led.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\a31t21x_port_init.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_pwr.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_scu.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\core\a31t21x_startup_iar.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\core\a31t21x_system.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\a31t21x_system_setting.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_timer.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_uart.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_usart1n.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver\a31t21x_wdt.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\debug.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\led_driver.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\main.o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app\user.o
+#        --no_out_extension -o
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Exe\app.out
+#        --map
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\List\app.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\ABOV\A31T216.icf" --semihosting
+#        D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\code_app\library\touch.a
+#        --entry __iar_program_start --vfe --utf8_text_in --text_out utf8
+#        --no_bom)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 0, alignment = 8 { };
+"P3":  place in [from 0x0 to 0x0] |
+                [from 0x2000'0000 to 0x2000'3fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P4"
+  rw section application_specific_rw  in "P2|P4"
+
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0xc0
+  .intvec          ro code          0x0    0xc0  a31t21x_startup_iar.o [2]
+                                 - 0xc0    0xc0
+
+"P1":                                    0x44dc
+  .text            ro code         0xc0  0x141c  touch.o [7]
+  .text            ro code       0x14dc   0x26c  a31t21x_gpio.o [3]
+  .text            ro code       0x1748    0xe0  I32DivModFast.o [5]
+  .text            ro code       0x1828   0x364  user_timer.o [7]
+  .text            ro code       0x1b8c     0x8  abs.o [4]
+  .text            ro code       0x1b94     0x2  IntDivZer.o [5]
+  .text            ro code       0x1b96     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x1b98   0x6e0  debug.o [1]
+  .text            ro code       0x2278   0x6b8  a31t21x_uart.o [3]
+  .text            ro code       0x2930    0x4e  ABImemset.o [5]
+  .text            ro code       0x297e     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x2980    0x78  a31t21x_dma.o [3]
+  .text            ro code       0x29f8   0x5ac  led_driver.o [1]
+  .text            ro code       0x2fa4    0x34  ABImemcpy.o [5]
+  .text            ro code       0x2fd8   0x274  a31t21x_led.o [3]
+  .text            ro code       0x324c   0x518  main.o [1]
+  .text            ro code       0x3764   0x44c  a31t21x_scu.o [3]
+  .text            ro code       0x3bb0     0x8  a31t21x_port_init.o [1]
+  .text            ro code       0x3bb8    0x60  a31t21x_system_setting.o [1]
+  .text            ro code       0x3c18   0x31c  a31t21x_usart1n.o [3]
+  .text            ro code       0x3f34   0x304  user.o [1]
+  .text            ro code       0x4238   0x100  a31t21x_timer.o [3]
+  .text            ro code       0x4338    0x5c  a31t21x_wdt.o [3]
+  .rodata          const         0x4394    0x48  user.o [1]
+  .text            ro code       0x43dc    0x48  a31t21x_system.o [2]
+  .text            ro code       0x4424    0x3c  zero_init3.o [5]
+  .text            ro code       0x4460    0x28  a31t21x_pwr.o [3]
+  .text            ro code       0x4488    0x28  data_init.o [5]
+  .iar.init_table  const         0x44b0    0x10  - Linker created -
+  .text            ro code       0x44c0    0x1e  cmain.o [5]
+  .text            ro code       0x44de     0x4  low_level_init.o [4]
+  .text            ro code       0x44e2     0x8  exit.o [4]
+  .text            ro code       0x44ea     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x44ec     0xa  cexit.o [5]
+  .text            ro code       0x44f6     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x44f8    0x14  exit.o [6]
+  .text            ro code       0x450c    0x1c  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4528    0x1c  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4544    0x1c  cstartup_M.o [5]
+  .rodata          const         0x4560    0x18  led_driver.o [1]
+  .text            ro code       0x4578    0x10  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4588     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x458a     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x458c     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x458e     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4590     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4592     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4594     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4596     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x4598     0x2  a31t21x_startup_iar.o [2]
+  .text            ro code       0x459a     0x2  a31t21x_startup_iar.o [2]
+  .rodata          const         0x459c     0x0  zero_init3.o [5]
+                               - 0x459c  0x44dc
+
+"P3", part 1 of 2:                        0x6b8
+  .bss             zero     0x2000'0000   0x268  user.o [1]
+  .bss             zero     0x2000'0268   0x140  debug.o [1]
+  .bss             zero     0x2000'03a8    0xac  touch.o [7]
+  .bss             zero     0x2000'0454    0x80  touch.o [7]
+  .bss             zero     0x2000'04d4    0x50  a31t21x_uart.o [3]
+  .bss             zero     0x2000'0524    0x50  a31t21x_usart1n.o [3]
+  .bss             zero     0x2000'0574    0x48  a31t21x_timer.o [3]
+  .bss             zero     0x2000'05bc    0x30  a31t21x_gpio.o [3]
+  .bss             zero     0x2000'05ec    0x1c  a31t21x_scu.o [3]
+  .bss             zero     0x2000'0608    0x1c  debug.o [1]
+  .bss             zero     0x2000'0624    0x10  a31t21x_wdt.o [3]
+  .bss             zero     0x2000'0634     0xc  debug.o [1]
+  .bss             zero     0x2000'0640     0xc  led_driver.o [1]
+  .bss             zero     0x2000'064c     0x8  a31t21x_led.o [3]
+  .bss             zero     0x2000'0654     0x8  a31t21x_pwr.o [3]
+  .bss             zero     0x2000'065c     0x8  debug.o [1]
+  .bss             zero     0x2000'0664     0x8  user.o [1]
+  .bss             zero     0x2000'066c     0x4  a31t21x_system.o [2]
+  .bss             zero     0x2000'0670     0x4  a31t21x_system.o [2]
+  .bss             zero     0x2000'0674     0x4  a31t21x_system.o [2]
+  .bss             zero     0x2000'0678     0x4  led_driver.o [1]
+  .bss             zero     0x2000'067c     0x4  main.o [1]
+  .bss             zero     0x2000'0680     0x4  touch.o [7]
+  .bss             zero     0x2000'0684     0x4  user_timer.o [7]
+  .bss             zero     0x2000'0688     0x4  user_timer.o [7]
+  .bss             zero     0x2000'068c     0x4  user_timer.o [7]
+  .bss             zero     0x2000'0690     0x4  user_timer.o [7]
+  .bss             zero     0x2000'0694     0x4  user_timer.o [7]
+  .bss             zero     0x2000'0698     0x4  user_timer.o [7]
+  .bss             zero     0x2000'069c     0x4  user_timer.o [7]
+  .bss             zero     0x2000'06a0     0x4  user_timer.o [7]
+  .bss             zero     0x2000'06a4     0x4  user_timer.o [7]
+  .bss             zero     0x2000'06a8     0x4  user_timer.o [7]
+  .bss             zero     0x2000'06ac     0x4  user_timer.o [7]
+  .bss             zero     0x2000'06b0     0x1  debug.o [1]
+  .bss             zero     0x2000'06b1     0x1  debug.o [1]
+  .bss             zero     0x2000'06b2     0x1  debug.o [1]
+  .bss             zero     0x2000'06b3     0x1  debug.o [1]
+  .bss             zero     0x2000'06b4     0x1  debug.o [1]
+  .bss             zero     0x2000'06b5     0x1  led_driver.o [1]
+  .bss             zero     0x2000'06b6     0x1  touch.o [7]
+                          - 0x2000'06b7   0x6b7
+
+"P3", part 2 of 2:                        0x400
+  CSTACK                    0x2000'06b8   0x400  <Block>
+    CSTACK         uninit   0x2000'06b8   0x400  <Block tail>
+                          - 0x2000'0ab8   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x459c     0x3'ffff  0x3'ba64
+  0x2000'0ab8  0x2000'3fff    0x3548
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x6b7:
+          0x2000'0000  0x6b7
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+command line/config:
+    ---------------------------------------------------
+    Total:
+
+D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app: [1]
+    a31t21x_port_init.o             8
+    a31t21x_system_setting.o       96
+    debug.o                     1'760               373
+    led_driver.o                1'452       24       17
+    main.o                      1'304                 4
+    user.o                        772       72      624
+    ---------------------------------------------------
+    Total:                      5'392       96    1'018
+
+D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\core: [2]
+    a31t21x_startup_iar.o         292
+    a31t21x_system.o               72                12
+    ---------------------------------------------------
+    Total:                        364                12
+
+D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver: [3]
+    a31t21x_dma.o                 120
+    a31t21x_gpio.o                620                48
+    a31t21x_led.o                 628                 8
+    a31t21x_pwr.o                  40                 8
+    a31t21x_scu.o               1'100                28
+    a31t21x_timer.o               256                72
+    a31t21x_uart.o              1'720                80
+    a31t21x_usart1n.o             796                80
+    a31t21x_wdt.o                  92                16
+    ---------------------------------------------------
+    Total:                      5'372               340
+
+dl6M_tln.a: [4]
+    abs.o                           8
+    exit.o                          8
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                         20
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                    52
+    ABImemset.o                    78
+    I32DivModFast.o               224
+    IntDivZer.o                     2
+    cexit.o                        10
+    cmain.o                        30
+    cstartup_M.o                   28
+    data_init.o                    40
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        524
+
+shb_l.a: [6]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+touch.a: [7]
+    touch.o                     5'148               305
+    user_timer.o                  868                44
+    ---------------------------------------------------
+    Total:                      6'016               349
+
+    Linker created                          16    1'024
+-------------------------------------------------------
+    Grand Total:               17'708      112    2'743
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x44b0          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x44c0          --   Gb  - Linker created -
+?main                        0x44c1         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x2000'06b8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0ab8          --   Gb  - Linker created -
+Change_SysClock              0x3611   0x8c  Code  Gb  main.o [1]
+DBG_Do_Task                  0x20cd  0x188  Code  Gb  debug.o [1]
+DBG_Do_Task::stStep     0x2000'06b4    0x1  Data  Lc  debug.o [1]
+DBG_Init_UART                0x1bfb   0x78  Code  Gb  debug.o [1]
+DBG_Init_UART_Param          0x1c73   0x5c  Code  Gb  debug.o [1]
+DBG_Init_Variable            0x1d9f   0x14  Code  Gb  debug.o [1]
+DBG_RX_Check                 0x1d0d   0x92  Code  Gb  debug.o [1]
+DBG_Send_Data                0x1e4d  0x26e  Code  Gb  debug.o [1]
+DBG_Set_Baudrate             0x1be9   0x12  Code  Gb  debug.o [1]
+DMA_REG                      0x2981    0xc  Code  Lc  a31t21x_dma.o [3]
+GPIOAB_IRQHandler            0x1715   0x10  Code  Gb  a31t21x_gpio.o [3]
+GPIOCD_IRQHandler            0x1725   0x10  Code  Gb  a31t21x_gpio.o [3]
+GPIOE_IRQHandler             0x1735    0xa  Code  Gb  a31t21x_gpio.o [3]
+GPIOF_IRQHandler             0x173f    0xa  Code  Gb  a31t21x_gpio.o [3]
+GPIO_Handler                 0x1699   0x76  Code  Lc  a31t21x_gpio.o [3]
+GPIO_REG                     0x14dd    0xe  Code  Lc  a31t21x_gpio.o [3]
+HAL_DMA_Start                0x298d   0x62  Code  Gb  a31t21x_dma.o [3]
+HAL_GPIO_Init                0x14eb   0xa2  Code  Gb  a31t21x_gpio.o [3]
+HAL_GPIO_SetFunction         0x15d9   0x3c  Code  Gb  a31t21x_gpio.o [3]
+HAL_GPIO_SetMode             0x1595   0x44  Code  Gb  a31t21x_gpio.o [3]
+HAL_GPIO_SetPin              0x166d   0x2c  Code  Gb  a31t21x_gpio.o [3]
+HAL_GPIO_SetPull             0x1615   0x3c  Code  Gb  a31t21x_gpio.o [3]
+HAL_LED_Init                 0x307d  0x13a  Code  Gb  a31t21x_led.o [3]
+HAL_SCU_SetPLLConfig         0x39c5  0x140  Code  Gb  a31t21x_scu.o [3]
+HAL_SCU_UpdateMainClock
+                             0x3947   0x46  Code  Gb  a31t21x_scu.o [3]
+HAL_UART_Deinit              0x254d   0x64  Code  Gb  a31t21x_uart.o [3]
+HAL_UART_Init                0x240f  0x138  Code  Gb  a31t21x_uart.o [3]
+HAL_UART_Receive             0x26bd   0xfe  Code  Gb  a31t21x_uart.o [3]
+HAL_UART_Transmit            0x25c5   0xe2  Code  Gb  a31t21x_uart.o [3]
+HAL_WDT_ClearStatus          0x4339   0x1c  Code  Gb  a31t21x_wdt.o [3]
+Hexstr_To_Binary             0x1ccf   0x3e  Code  Gb  debug.o [1]
+Init_Library                 0x3309   0xcc  Code  Gb  main.o [1]
+LED_Do_Task                  0x2ec9   0x5e  Code  Gb  led_driver.o [1]
+LED_Do_Task::staStep    0x2000'06b5    0x1  Data  Lc  led_driver.o [1]
+LED_IRQHandler               0x3245    0x8  Code  Gb  a31t21x_led.o [3]
+LED_IRQHandlerC              0x31b7   0x4a  Code  Lc  a31t21x_led.o [3]
+LED_Init_IO                  0x2b8f   0xe0  Code  Gb  led_driver.o [1]
+LED_Init_Reg                 0x2ca5  0x224  Code  Gb  led_driver.o [1]
+LED_Set_Actv_Time            0x2adf   0x84  Code  Gb  led_driver.o [1]
+LED_Set_Current              0x2b63   0x2c  Code  Gb  led_driver.o [1]
+LVI_IRQHandler               0x4461   0x1c  Code  Gb  a31t21x_pwr.o [3]
+Make_Packet_Byte             0x1db3   0x24  Code  Gb  debug.o [1]
+Make_Packet_Word             0x1dd7   0x4c  Code  Gb  debug.o [1]
+Port_Init                    0x3bb1    0x8  Code  Gb  a31t21x_port_init.o [1]
+Region$$Table$$Base          0x44b0          --   Gb  - Linker created -
+Region$$Table$$Limit         0x44c0          --   Gb  - Linker created -
+SCU_ClockEnable              0x37e1  0x166  Code  Lc  a31t21x_scu.o [3]
+SCU_FlashLatencySet          0x3765   0x7c  Code  Lc  a31t21x_scu.o [3]
+SYSCLKFAIL_IRQHandler        0x3b3d   0x6a  Code  Gb  a31t21x_scu.o [3]
+Set_Library                  0x34ed   0xd2  Code  Gb  main.o [1]
+Set_TS_IO                    0x33d5  0x10c  Code  Gb  main.o [1]
+SysTick_Config               0x32d9   0x30  Code  Lc  main.o [1]
+SysTick_Handler              0x1867    0xc  Code  Gb  user_timer.o [7]
+SystemCoreClock         0x2000'066c    0x4  Data  Gb  a31t21x_system.o [2]
+SystemDelayCount        0x2000'0674    0x4  Data  Gb  a31t21x_system.o [2]
+SystemInit                   0x43dd   0x2e  Code  Gb  a31t21x_system.o [2]
+SystemPeriClock         0x2000'0670    0x4  Data  Gb  a31t21x_system.o [2]
+System_Setting_Config        0x3bb9   0x60  Code  Gb  a31t21x_system_setting.o [1]
+TIMER10_IRQHandler           0x42fd    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER11_IRQHandler           0x4307    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER12_IRQHandler           0x4311    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER13_IRQHandler           0x431b    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER20_IRQHandler           0x4325    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER21_IRQHandler           0x432f    0xa  Code  Gb  a31t21x_timer.o [3]
+TIMER_IRQHandler             0x4275   0x82  Code  Lc  a31t21x_timer.o [3]
+TIMER_REG                    0x4239   0x32  Code  Lc  a31t21x_timer.o [3]
+TOUCH_IRQHandler              0x111   0xe8  Code  Gb  touch.o [7]
+TS_Config_Mode                0x67d  0x2ee  Code  Gb  touch.o [7]
+TS_Do_Task                   0x11bd  0x2f2  Code  Gb  touch.o [7]
+TS_Do_Task::base_delay_n
+                        0x2000'06b6    0x1  Data  Lc  touch.o [7]
+TS_Get_Single_CH              0x545   0x80  Code  Gb  touch.o [7]
+TS_Init_Base                  0x981   0xb8  Code  Gb  touch.o [7]
+TS_Init_Register              0x459   0xe0  Code  Gb  touch.o [7]
+TS_Init_Variable              0x3a1   0xaa  Code  Gb  touch.o [7]
+TS_Judge_Key                  0xea9  0x2f2  Code  Gb  touch.o [7]
+TS_Make_Data                  0xd05  0x190  Code  Gb  touch.o [7]
+TS_Set_BaseHold_Rate          0x2e9    0x6  Code  Gb  touch.o [7]
+TS_Set_Base_Tracking          0x2ef    0xe  Code  Gb  touch.o [7]
+TS_Set_CH_THD                 0x2d5    0xe  Code  Gb  touch.o [7]
+TS_Set_Common_THD             0x2b1   0x24  Code  Gb  touch.o [7]
+TS_Set_Comp_RefV              0x33f   0x10  Code  Gb  touch.o [7]
+TS_Set_Debounce               0x30f    0xa  Code  Gb  touch.o [7]
+TS_Set_Hisense_Level          0x34f   0x20  Code  Gb  touch.o [7]
+TS_Set_IIR                    0x319    0x6  Code  Gb  touch.o [7]
+TS_Set_Inact_Port             0x327   0x18  Code  Gb  touch.o [7]
+TS_Set_Init_Delay             0x31f    0x8  Code  Gb  touch.o [7]
+TS_Set_Mode                   0x1f9    0x6  Code  Gb  touch.o [7]
+TS_Set_NoiseTHD_Rate          0x2e3    0x6  Code  Gb  touch.o [7]
+TS_Set_Release_Rate           0x2fd    0x6  Code  Gb  touch.o [7]
+TS_Set_Reverse_Rate           0x303    0x6  Code  Gb  touch.o [7]
+TS_Set_Reverse_Time           0x309    0x6  Code  Gb  touch.o [7]
+TS_Set_Shield                 0x1ff   0xaa  Code  Gb  touch.o [7]
+TS_Set_Sum_Count              0x2a9    0x8  Code  Gb  touch.o [7]
+TS_Start_Touch                0x5dd   0x3e  Code  Gb  touch.o [7]
+TS_Update_Base                0xa49  0x2ac  Code  Gb  touch.o [7]
+TS_User_Filter               0x40d9  0x140  Code  Gb  user.o [1]
+TS_User_Filter::relLevel_n
+                        0x2000'0664    0x8  Data  Lc  user.o [1]
+UART0_IRQHandler             0x291d    0xa  Code  Gb  a31t21x_uart.o [3]
+UART1_IRQHandler             0x2927    0xa  Code  Gb  a31t21x_uart.o [3]
+UART_Configure               0x2369   0xa6  Code  Lc  a31t21x_uart.o [3]
+UART_IRQHandler              0x27cd  0x14a  Code  Lc  a31t21x_uart.o [3]
+UART_IRQ_NUM                 0x2363    0x6  Code  Lc  a31t21x_uart.o [3]
+UART_REG                     0x2355    0xe  Code  Lc  a31t21x_uart.o [3]
+USART10_IRQHandler           0x3f21    0xa  Code  Gb  a31t21x_usart1n.o [3]
+USART11_IRQHandler           0x3f2b    0xa  Code  Gb  a31t21x_usart1n.o [3]
+USART_IRQHandler             0x3c35  0x2e4  Code  Lc  a31t21x_usart1n.o [3]
+USART_REG                    0x3c19    0xe  Code  Lc  a31t21x_usart1n.o [3]
+USART_StatusCheck            0x3c29    0x8  Code  Lc  a31t21x_usart1n.o [3]
+UT_Check_Expire              0x19a5  0x172  Code  Lc  user_timer.o [7]
+UT_Clear_Timer               0x18fd   0x80  Code  Gb  user_timer.o [7]
+UT_Get_Status                0x18f7    0x6  Code  Gb  user_timer.o [7]
+UT_Is_Expired                0x1b1d   0x42  Code  Gb  user_timer.o [7]
+UT_Run_Timer                 0x1829   0x3e  Code  Gb  user_timer.o [7]
+UT_Set_Timer                 0x1873   0x84  Code  Gb  user_timer.o [7]
+WDT_IRQHandlerC              0x4355   0x36  Code  Gb  a31t21x_wdt.o [3]
+__NVIC_ClearPendingIRQ       0x22b1   0x18  Code  Lc  a31t21x_uart.o [3]
+__NVIC_ClearPendingIRQ         0xf9   0x18  Code  Lc  touch.o [7]
+__NVIC_DisableIRQ            0x2291   0x20  Code  Lc  a31t21x_uart.o [3]
+__NVIC_DisableIRQ              0xd9   0x20  Code  Lc  touch.o [7]
+__NVIC_EnableIRQ             0x2fd9   0x18  Code  Lc  a31t21x_led.o [3]
+__NVIC_EnableIRQ             0x2279   0x18  Code  Lc  a31t21x_uart.o [3]
+__NVIC_EnableIRQ             0x29f9   0x18  Code  Lc  led_driver.o [1]
+__NVIC_EnableIRQ               0xc1   0x18  Code  Lc  touch.o [7]
+__NVIC_SetPriority           0x2ff1   0x8c  Code  Lc  a31t21x_led.o [3]
+__NVIC_SetPriority           0x22c9   0x8c  Code  Lc  a31t21x_uart.o [3]
+__NVIC_SetPriority           0x2a11   0x8c  Code  Lc  led_driver.o [1]
+__NVIC_SetPriority           0x324d   0x8c  Code  Lc  main.o [1]
+__aeabi_idiv                 0x1775         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0                0x1b95         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod              0x1775         Code  Gb  I32DivModFast.o [5]
+__aeabi_memcpy4              0x2fa5         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8              0x2fa5         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset               0x2931         Code  Gb  ABImemset.o [5]
+__aeabi_uidiv                0x177b         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod             0x177b         Code  Gb  I32DivModFast.o [5]
+__cmain                      0x44c1         Code  Gb  cmain.o [5]
+__exit                       0x44f9   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word           0x2951         Code  Gb  ABImemset.o [5]
+__iar_Memset_word            0x293d         Code  Gb  ABImemset.o [5]
+__iar_data_init3             0x4489   0x28  Code  Gb  data_init.o [5]
+__iar_program_start          0x4545         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3             0x4425   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init             0x44df    0x4  Code  Gb  low_level_init.o [4]
+__vector_table                  0x0         Data  Gb  a31t21x_startup_iar.o [2]
+_call_main                   0x44cd         Code  Gb  cmain.o [5]
+_exit                        0x44ed         Code  Gb  cexit.o [5]
+abs                          0x1b8d    0x8  Code  Gb  abs.o [4]
+app_led_irq_handler          0x2a9d   0x42  Code  Gb  led_driver.o [1]
+app_uart_irq_handler         0x1b99   0x50  Code  Gb  debug.o [1]
+app_uart_rx_buf         0x2000'065c    0x8  Data  Gb  debug.o [1]
+app_uart_rx_done        0x2000'06b1    0x1  Data  Lc  debug.o [1]
+app_uart_tx_done        0x2000'06b0    0x1  Data  Lc  debug.o [1]
+coDigit                      0x4394   0x48  Data  Gb  user.o [1]
+dbg                     0x2000'0634    0xc  Data  Gb  debug.o [1]
+exit                         0x44e3    0x8  Code  Gb  exit.o [4]
+fpRenewLED              0x2000'0678    0x4  Data  Gb  led_driver.o [1]
+func_p_user_filter      0x2000'0680    0x4  Data  Gb  touch.o [7]
+g_gcb                   0x2000'05bc   0x30  Data  Lc  a31t21x_gpio.o [3]
+g_lcb                   0x2000'064c    0x8  Data  Lc  a31t21x_led.o [3]
+g_pcb                   0x2000'0654    0x8  Data  Lc  a31t21x_pwr.o [3]
+g_scb                   0x2000'05ec   0x1c  Data  Lc  a31t21x_scu.o [3]
+g_tcb                   0x2000'0574   0x48  Data  Lc  a31t21x_timer.o [3]
+g_ucb                   0x2000'04d4   0x50  Data  Lc  a31t21x_uart.o [3]
+g_ucb                   0x2000'0524   0x50  Data  Lc  a31t21x_usart1n.o [3]
+g_wcb                   0x2000'0624   0x10  Data  Lc  a31t21x_wdt.o [3]
+get_max                      0x409b   0x3e  Code  Gb  user.o [1]
+led                     0x2000'0640    0xc  Data  Gb  led_driver.o [1]
+led_RenewData                0x3f35  0x166  Code  Gb  user.o [1]
+main                         0x36d5   0x76  Code  Gb  main.o [1]
+s8_buff                 0x2000'0608   0x1c  Data  Lc  debug.o [1]
+s8_index                0x2000'06b3    0x1  Data  Lc  debug.o [1]
+s8_step                 0x2000'06b2    0x1  Data  Lc  debug.o [1]
+t_sysbit                0x2000'067c    0x4  Data  Gb  main.o [1]
+ts                      0x2000'0454   0x80  Data  Gb  touch.o [7]
+ts_reg                  0x2000'03a8   0xac  Data  Gb  touch.o [7]
+uart                    0x2000'0268  0x140  Data  Gb  debug.o [1]
+user                    0x2000'0000  0x268  Data  Gb  user.o [1]
+ut_expire_flag          0x2000'068c    0x4  Data  Lc  user_timer.o [7]
+ut_set_flag             0x2000'0688    0x4  Data  Lc  user_timer.o [7]
+ut_tick                 0x2000'0684    0x4  Data  Gb  user_timer.o [7]
+ut_timer_1              0x2000'0690    0x4  Data  Lc  user_timer.o [7]
+ut_timer_2              0x2000'0694    0x4  Data  Lc  user_timer.o [7]
+ut_timer_3              0x2000'0698    0x4  Data  Lc  user_timer.o [7]
+ut_timer_4              0x2000'069c    0x4  Data  Lc  user_timer.o [7]
+ut_timer_5              0x2000'06a0    0x4  Data  Lc  user_timer.o [7]
+ut_timer_6              0x2000'06a4    0x4  Data  Lc  user_timer.o [7]
+ut_timer_7              0x2000'06a8    0x4  Data  Lc  user_timer.o [7]
+ut_timer_8              0x2000'06ac    0x4  Data  Lc  user_timer.o [7]
+
+
+[1] = D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\app
+[2] = D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\core
+[3] = D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Project\example\touch\iar\Debug\Obj\driver
+[4] = dl6M_tln.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+[7] = touch.a
+
+  17'708 bytes of readonly  code memory
+     112 bytes of readonly  data memory
+   2'743 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
