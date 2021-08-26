@@ -22,7 +22,7 @@ I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
 I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\debug.h)(0x61024AD4)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 I (..\..\code_app\led_driver.h)(0x6102384A)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
 I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
@@ -49,7 +49,7 @@ I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
 I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\debug.h)(0x61024AD4)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 I (..\..\code_app\led_driver.h)(0x6102384A)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
 I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
@@ -76,7 +76,7 @@ I (..\..\..\..\..\driver\a31t21x\include\A31T21x_uart.h)(0x607E9562)
 I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\debug.h)(0x61024AD4)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 I (..\..\code_app\led_driver.h)(0x6102384A)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
 I (..\..\code_app\library\header\user_timer.h)(0x611B7188)
@@ -99,7 +99,7 @@ I (..\..\..\..\..\driver\a31t21x\include\A31T21x_gpio.h)(0x61236820)
 I (..\..\code_app\debug.h)(0x61024AD4)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 F (..\..\code_app\led_driver.c)(0x61026C54)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\led_driver.o --omf_browse .\objects\led_driver.crf --depend .\objects\led_driver.d)
 I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1C)
 I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x606AC7B8)
@@ -117,7 +117,7 @@ I (..\..\..\..\..\driver\a31t21x\include\A31T21x_led.h)(0x61035944)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
 I (..\..\code_app\led_driver.h)(0x6102384A)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 F (..\..\code_app\user.c)(0x60E41D28)(--c99 -c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I..\..\..\..\..\core\device\a31t21x\include -I..\..\..\..\..\driver\a31t21x\include -I..\..\code_app\library\header -I..\..\common -I..\..\..\..\..\core\cmsis\include-I D:\work\5.MSS_SS\A31T216\p.pkg\fw\A31T216_Touch_LIbrary\example\touch\keil\a31t21x\keil\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DARMCM0P-o .\objects\user.o --omf_browse .\objects\user.crf --depend .\objects\user.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475E4F0)
 I (..\..\..\..\..\core\device\a31t21x\include\A31T21x.h)(0x61076C1C)
@@ -132,7 +132,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475E4F0)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475E4F0)
 I (..\..\code_app\library\header\common.h)(0x610783F0)
 I (..\..\code_app\library\header\touch.h)(0x611C6508)
-I (..\..\code_app\user.h)(0x6124C42E)
+I (..\..\code_app\user.h)(0x6124C59B)
 F (..\..\code_lib\touch.c)(0x61246392)()
 F (..\..\code_lib\user_timer.c)(0x61246392)()
 F (..\..\code_app\library\Objects\touch.lib)(0x611DB430)()
