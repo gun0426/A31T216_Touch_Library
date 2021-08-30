@@ -1,4 +1,5 @@
 .\objects\main.o: ..\..\code_app\main.c
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\..\code_app\main.h
 .\objects\main.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x.h
 .\objects\main.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
@@ -9,7 +10,6 @@
 .\objects\main.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
 .\objects\main.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_pwr.h
 .\objects\main.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\main.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_scu.h
 .\objects\main.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h

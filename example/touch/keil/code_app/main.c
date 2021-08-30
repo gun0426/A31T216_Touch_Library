@@ -10,6 +10,7 @@
 * All rights reserved.
 *
 **********************************************************************/
+#include <stdio.h>
 #include "main.h"
 
 
@@ -540,7 +541,7 @@ int main (void)
 			{
 				task = TASK_LED;
 			}
-		}		
+		}
 	}
 }
 

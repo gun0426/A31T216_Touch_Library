@@ -17,7 +17,7 @@
 ".\objects\a31t21x_uart.o"
 ".\objects\a31t21x_usart1n.o"
 ".\objects\a31t21x_wdt.o"
---strict --scatter ".\Objects\app.sct"
+--library_type=microlib --strict --scatter ".\Objects\app.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\app.map" -o .\Objects\app.axf

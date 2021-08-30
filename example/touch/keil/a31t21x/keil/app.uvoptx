@@ -117,7 +117,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>CMSIS_AGDI</Key>
-          <Name>-X"A-Link_CMSIS-DAP" -U0001A0000000 -O712 -S0 -C0 -P00 -N00("ARM CoreSight SW-DP") -D00(0BC11477) -L00(0) -FO7 -FD20000000 -FC1000 -FN1 -FF0A31T21x_Flashloader -FS00 -FL040000</Name>
+          <Name>-X"A-Link_CMSIS-DAP" -U0001A0000000 -O712 -S0 -C0 -P00 -FO7 -FD20000000 -FC1000 -FN1 -FF0A31T21x_Flashloader -FS00 -FL040000</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>

@@ -117,28 +117,29 @@ void DBG_Set_Baudrate(u32 dbgBaud)
 	t_sysbit.dbg_en = 1;
 #endif
 }
-#if (0)
-/***************************************** printf start *******************************************/
+
+/*************************************************************
+ - FUNCTION & CLASS NAME
+	: printf()
+	
+ - DESCRIPTION
+	: Check Use MicroLIB
+	
+*************************************************************/
 #ifdef __GNUC__
-	/* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf  
-	 set to 'Yes') calls __io_putchar() */
-	#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+  	/* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
+     set to 'Yes') calls __io_putchar() */
+  	#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #else
-	#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+  	#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)		/* fputc  */
 #endif /* __GNUC__ */
+ 
 PUTCHAR_PROTOTYPE
 {
-	/* Place your implementation of fputc here */
-	/* e.g. write a character to the USART */
-	#if (1)	// 테스트 필요 
-	//while (!(UART1->LSR & UART_LSR_THRE)){}
-	/////HAL_UART_WriteBuffer(UART1, ch);	
-	UART1->THR = ch;
-	#endif
-
-	return ch;
-}
-#endif
+	UART1->THR = ch; 
+	while (!(UART1->LSR & BIT(5)));	/*  LSR : Line Status Register, THRE(BIT5) 1: Transmit holding register is empty */
+  	return ch;
+}	/* printf() */
 /*************************************************************
  - FUNCTION & CLASS NAME
 	: void db_InitReg(void) 	USART1
